@@ -50,7 +50,7 @@
     // Roadmap carousel
     $(".roadmap-carousel").owlCarousel({
         autoplay: true,
-        smartSpeed: 1000,
+        smartSpeed: 1500,
         margin: 25,
         loop: true,
         dots: false,
@@ -76,6 +76,16 @@
                 items:5
             }
         }
+    });
+     // Header carousel
+     $(".header-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1500,
+        loop: true,
+        nav: false,
+        dots: true,
+        items: 1,
+        dotsData: true,
     });
 
 
