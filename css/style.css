@@ -4,6 +4,17 @@
     --secondary: #999999;
     --light: #F2F8FE;
     --dark: #111111;
+    
+}
+html{
+    scroll-padding-top: 20px;
+}
+.text-gradient{
+    
+background: -webkit-linear-gradient(92deg,#00bbff 0%, #005fff 20%);
+background: -moz-linear-gradient(92deg,#00bbff 0%, #005fff 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .back-to-top {
@@ -228,8 +239,10 @@ h6,
 
 
 /*** Header ***/
-.hero-header .breadcrumb-item+.breadcrumb-item::before {
-    color: var(--secondary);
+.hero {
+    padding: 7rem 0rem 3rem 0;
+    background: url(../img/Top+banner.png) top left no-repeat ;
+    
 }
 
 
