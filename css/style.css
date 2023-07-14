@@ -245,6 +245,15 @@ h6,
     
 }
 
+/* #padborder  :hover {
+    padding: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   border: #00bbff; 
+  
+ }  */
+
+
+
 
 
 
@@ -288,12 +297,17 @@ h6,
     opacity: 0;
 }
 .service-item:hover{
+    border: #8d98ab;
+    border-width: 2px;
+    border-style: solid ;
     transition: 0.7s;
     border-radius: 60px 60px 20px 60px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     
 
 }
+
+
 
 
 
