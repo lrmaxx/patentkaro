@@ -4,6 +4,7 @@
     --secondary: #999999;
     --light: #F2F8FE;
     --dark: #111111;
+    --sample:#3f48cc;
     
 }
 html{
@@ -11,8 +12,7 @@ html{
 }
 .text-gradient{
     
-background: -webkit-linear-gradient(92deg,#00bbff 0%, #005fff 20%);
-background: -moz-linear-gradient(92deg,#00bbff 0%, #005fff 20%);
+    background-image: linear-gradient(to right, #042D75, #0145BC,#000000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -92,7 +92,7 @@ background: -moz-linear-gradient(92deg,#00bbff 0%, #005fff 20%);
     justify-content: center;
     flex-shrink: 0;
     color: #FFFFFF;
-    background: var(--primary);
+    background: var(--sample);
     border-radius: 40px;
     z-index: 1;
 }
@@ -103,6 +103,13 @@ background: -moz-linear-gradient(92deg,#00bbff 0%, #005fff 20%);
 
 .page-header {
     background: linear-gradient(#0154d196 0%, rgb(194 151 103 / 56%) ), url(../img/smiling-businesswomen-talking-drinking-coffee.jpg) center center no-repeat;
+    background-size: cover;
+    height: 450px;
+     /* background-color: #e6c79c;
+background-image: linear-gradient(315deg, #e6c79c 0%, #d6a3a3 74%); */
+} 
+.protect-header {
+    background: linear-gradient(#0154d196 0%, rgb(194 151 103 / 56%) ), url(../img/banner2.jpg) center center no-repeat;
     background-size: cover;
     height: 450px;
      /* background-color: #e6c79c;
@@ -242,6 +249,14 @@ h6,
 .hero {
     padding: 7rem 0rem 3rem 0;
     background: url(../img/Top+banner.png) top left no-repeat ;
+}
+.bg-color{
+    background-image: linear-gradient(82.86deg,#000577 -19.93%,#00a3ff 75.2%),linear-gradient(89.75deg,#ba3838 -4.9%,red 97.56%);
+}
+.protect {
+    padding: 7rem 0rem 3rem 0;
+    background: url(../img/bannerimf.jpg) top left no-repeat ;
+    background-size: cover ;
     
 }
 
