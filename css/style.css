@@ -425,10 +425,10 @@ h6,
     border: none;
     margin-bottom: 15px;
 }
-#code{background-color:var(--primary);;}
+
 
 .accordion .accordion-button {
-    background: var(--light);
+    background: var(--primary);
     border-radius: 2px;
 }
 
