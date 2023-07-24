@@ -20,15 +20,11 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 	$phone = $_POST['phone'];
 	$service_code   = $_POST['service_code'];
 	$service_name = [
-		'001' =>'Web Designing Service ',
-		'002' =>'Nominee Shareholder Service ',
-		'003' =>'Offshore Company-Formation ',
-		'004' =>'Offshore Bank Account ',
-		'005' =>'Employer Identifier Number ',
-		'006' =>'S Crop ',
-		'007' =>'Corporate Secretrial Service ',
-		'008' =>'Account Audit Tax ',
-		'009' =>'Doing Business As(DBA)',
+		'001' =>'Patent Service ',
+		'002' =>'Patent Search Analytics ',
+		'003' => 'Patent Protection ',
+		'004' =>'PCT Nation Filling',
+		'005' =>'Patent Illustration Hub',
 		
 	];
 
@@ -66,30 +62,15 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 					<p>We wanted to take a moment to thank you for choosing our '. $service_name[$service_code].'. We appreciate the trust you have placed in LegalRaasta, and we are committed to delivering the highest quality service in setting up your business in India. Additionally, we also provide business setup services in Free Zone, Mainland and Offshore areas. <br>
 					We are grateful for the opportunity to work with you and for the positive impact that our License services have had on your business. Your satisfaction is LegalRaasta’s top priority, and we are dedicated to ensuring that you receive the best possible experience with our company. Click to know about our services and us</p>
 				
-					<p><strong>About LegalRaasta:<br></strong>LegalRaasta is India leading business services provider. LegalRaasta
+					<p><strong>About Patenkaro:<br></strong>Patenkaro is India leading business services provider. Patenkaro
 						serves more than 2200+ businesses ever year. We offer 30+ services including <strong>GST, ITR, TDS, Company
 							formation, Service tax, IEC, Trademark, FSSAI, ROC, ISO, &amp; Loans.</strong></p>
-					<p>LegalRaasta also has <strong>tie ups with 40+ Banks &amp; NBFCs</strong> and can help you with
+					<p>Patenkaro also has <strong>tie ups with 40+ Banks &amp; NBFCs</strong> and can help you with
 						<strong>business loans</strong>.</p>
 
-					<p>Warm regards,<br>Team, LegalRaasta<br><em><a
-								href="https://www.legalraasta.com/private-limited-company-registration/"
-								data-mce-href="https://www.legalraasta.com/private-limited-company-registration/">Company
-								formation</a> | <a href="https://www.legalraasta.com/trademark-registration/"
-								data-mce-href="https://www.legalraasta.com/trademark-registration/">Trademark</a> | <a
-								href="https://www.legalraasta.com/fssai-license/"
-								data-mce-href="https://www.legalraasta.com/fssai-license/">Licenses</a> | <a
-								href="https://www.legalraasta.com/gst-registration/"
-								data-mce-href="https://www.legalraasta.com/gst-registration/">GST</a>, <a
-								href="https://www.legalraasta.com/income-tax-return/"
-								data-mce-href="https://www.legalraasta.com/income-tax-return/">ITR</a> &amp; <a
-								href="https://www.legalraasta.com/tds-return/"
-								data-mce-href="https://www.legalraasta.com/tds-return/">TDS</a> | <a
-								href="https://www.legalraasta.com/loan/"
-								data-mce-href="https://www.legalraasta.com/loan/">Loans</a></em><br>M:&nbsp;<a
-							href="tel:%2B91%20875%20000%208585" data-mce-href="tel:%2B91%20875%20000%208585">+91 875 000
-							8585</a>&nbsp;|&nbsp;<a href="https://www.legalraasta.com/"
-							data-mce-href="https://www.legalraasta.com/">www.legalraasta.com</a><br>Head office: B-300, Saraswati
+					<p>Warm regards,<br>Team, Patent Karo<br><em>
+					<br>
+						www.patentkaro.com</a><br>Head office: B-300, Saraswati
 						Vihar, Pitampura, Delhi<br><a href="https://www.facebook.com/legalraasta/"
 							data-mce-href="https://www.facebook.com/legalraasta/">Facebook</a>&nbsp;|&nbsp;<a
 							href="https://www.linkedin.com/in/LegalRaasta/"

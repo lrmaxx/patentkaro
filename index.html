@@ -539,7 +539,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 col-sm-10 col-11 mx-auto mb-4 wow fadeInUp mx-auto" data-wow-delay="0.5s">
-                    <form action="/custom_form.php" class="d-flex justify-content-center border border-3 border-light py-3 px-sm-4 px-0  rounded-5" 
+                    <form action="custom_form.php" class="d-flex justify-content-center border border-3 border-light py-3 px-sm-4 px-0  rounded-5" 
                                 onsubmit="emailPassage()" method="POST">
                                 <div class="row  justify-content-center rounded-4 py-5 mt-2"  style="background-color: #2b4162;
                                 background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);">
@@ -556,9 +556,10 @@
                                     </div>
                                     <div class="col-lg-10 col-11 my-4">
                                         <input class="form-control bg-white " type="tel" name="contact" id="contact"
-                                            placeholder="Mobile Number" maxlength="10" pattern="[6-9]{1}[0-9]{9}" title="Please
-                                            Enter 10 Digit Number"  required style="height: 55px;  
-                                              border: none; border-bottom: 2px solid grey !important;" >
+                                        placeholder="Mobile Number" maxlength="10" pattern="[6-9]{1}[0-9]{9}" title="Please
+                                        Enter 10 Digit Number"
+                                        style="height: 55px;    border: none; border-bottom: 2px solid grey !important;"
+                                        required>
                                     </div>
                                     <input type="hidden" name="body" id="body" value="Check test">
                                     <input type="hidden" name="service_code" value="001" id="service-code">

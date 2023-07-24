@@ -22,15 +22,12 @@ require 'autoload.php';
 		$phone = $_POST['phone'];
 		$service_code =$_POST['service_code'];
 		$service_name = [
-			'001' =>'Contact Us ',
-			'002' =>'Nominee Shareholder Service ',
-			'003' =>'Offshore Company-Formation ',
-			'004' =>'Offshore Bank Account ',
-			'005' =>'Employer Identifier Number ',
-			'006' =>'S Crop ',
-			'007' =>'Corporate Secretrial Service ',
-			'008' =>'Account Audit Tax ',
-			'009' =>'Doing Business As(DBA)',
+			'001' =>'Patent Service ',
+		'002' =>'Patent Search Analytics ',
+		'003' => 'Patent Protection ',
+		'004' =>'PCT Nation Filling',
+		'005' =>'Patent Illustration Hub',
+		
 		];
 		$status="fa";
 		$response ="jack";
