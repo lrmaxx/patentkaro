@@ -27,6 +27,8 @@ require 'autoload.php';
 		'003' => 'Patent Protection ',
 		'004' =>'PCT Nation Filling',
 		'005' =>'Patent Illustration Hub',
+		'006' =>'Design Patent Service',
+		'007' =>'Provisional Patent Service',
 		
 		];
 		$status="fa";
