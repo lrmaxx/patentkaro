@@ -22,13 +22,22 @@ require 'autoload.php';
 		$phone = $_POST['phone'];
 		$service_code =$_POST['service_code'];
 		$service_name = [
-			'001' =>'Patent Service ',
+		'001' =>'Patent Service ',
 		'002' =>'Patent Search Analytics ',
 		'003' => 'Patent Protection ',
 		'004' =>'PCT Nation Filling',
 		'005' =>'Patent Illustration Hub',
 		'006' =>'Design Patent Service',
 		'007' =>'Provisional Patent Service',
+		'008' =>'Patent Research',
+		'009' =>'Patent Drafting',
+		'010' =>'Patent FTO',
+		'011' =>'Permanent Patent',
+		'012' =>'Patent Prosecution',
+		'013' =>'Patent Litigation',
+		'014' =>'Patent Illustartion',
+		'015' =>'Patent Early Publication',
+		
 		
 		];
 		$status="fa";
