@@ -37,6 +37,7 @@ require 'autoload.php';
 		'013' =>'Patent Litigation',
 		'014' =>'Patent Illustartion',
 		'015' =>'Patent Early Publication',
+		'016' =>'Patent Early Examination',
 		
 		
 		];
